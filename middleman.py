@@ -16,8 +16,8 @@ def menu():
 
 def arpSpoof(interface,plugin):        
     if plugin == "dns_spoof":
-        target1 = input("\n──╼┤1st TARGET├─> ")
-        target2 =   input("──╼┤2nd TARGET├─> ")
+	target1 = input("\n──╼┤1st TARGET├─> ")
+	target2 = input("──╼┤2nd TARGET├─> ")
 	print("\n")
 	command = "ettercap -T -S -i "+interface+" -P "+plugin+" -M arp:remote /"+target1+"// /"+target2+"//"
 	os.system(command)
