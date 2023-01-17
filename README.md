@@ -7,7 +7,7 @@ ARP poisoning and DNS spoofing tool - please keep in mind to use this tool for e
 
  <h3>GET STARTED</h3>
 
-         install ettercap, setoolkit and python3
+         install ettercap and python3
 
          set INTERFACE and PLUGIN inside the scripts menu section before use
          
