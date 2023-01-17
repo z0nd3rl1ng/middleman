@@ -9,6 +9,6 @@ ARP poisoning and DNS spoofing tool - please keep in mind to use this tool for e
 
          install ettercap and python3
 
-         set INTERFACE and PLUGIN inside the scripts menu section before use
+         set INTERFACE and PLUGIN inside the scripts menu-section before use
          
          sudo python3 middleman.py
